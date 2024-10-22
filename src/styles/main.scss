@@ -3,6 +3,7 @@
 @use 'shows';
 @use 'plans';
 @use 'availables-devices';
+@use 'faq';
 
 
 @font-face {
@@ -81,6 +82,7 @@ body {
     margin-top: 2vw;
     margin-bottom: 8px;
     border: none;
+    cursor: pointer;
 }
 
 .image-text-section {
